@@ -13,14 +13,18 @@ function sum(num1, num2) {
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
 
-
+function avg(num1, num2, num3) {
+	return (num1 + num2 + num3)/3;
+}
 
 
 // Q3
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
-
+function getLength(string) {
+	return string.length;
+}
 
 
 // Q4
@@ -29,7 +33,7 @@ function sum(num1, num2) {
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
 
-
+function greaterThan()
 
 
 // Q5
