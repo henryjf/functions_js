@@ -6,9 +6,6 @@ function sum(num1, num2) {
 	return num1 + num2;
 }
 
-
-
-
 // Q2
 // Write a function named `avg` that takes 3 parameters
 // and returns the average of those 3 numbers.
@@ -17,15 +14,13 @@ function avg(num1, num2, num3) {
 	return (num1 + num2 + num3)/3;
 }
 
-
 // Q3
 // Write a function called `getLength` that takes one
 // parameter (a string) and returns the length
 
-function getLength(string) {
-	return string.length;
+function getLength(str) {
+	return str.length;
 }
-
 
 // Q4
 // Write a function called `greaterThan` that takes
@@ -33,8 +28,10 @@ function getLength(string) {
 // parameter is greater than the first. Otherwise
 // the function should return `false`.
 
-function greaterThan()
-
+function greaterThan(num1, num2) {
+	if (num1 < num2) return true; 
+	else return false;
+	}
 
 // Q5
 // Write a function called `greet` that takes a
@@ -42,8 +39,9 @@ function greaterThan()
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 
-
-
+function greet(Name) {
+	return "Hello, " + Name + "!";
+}
 
 // Q6
 // Write a function called `madlib` that takes
@@ -55,3 +53,10 @@ function greaterThan()
 // strings. For example:
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
+
+function madlib(adj, noun, verb, noun2) {
+	return "The " + adj + noun + verb + "to the " + noun2 + ".";
+
+}
+
+
