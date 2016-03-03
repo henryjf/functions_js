@@ -5,8 +5,7 @@
 
 function max(num1, num2){ 
 	if (num1 > num2) return num1;
-		else return num2;
-    
+		else return num2;   
 }
 
 // ---------------------
@@ -14,8 +13,9 @@ function max(num1, num2){
 // and returns the largest of them.
 // ---------------------
 
-function maxOfThree(){
-    
+function maxOfThree(input1, input2, input3) {
+	var max = Math.max(input1, input2, input3);
+	return max; 
 }
 
 // ---------------------
@@ -23,7 +23,7 @@ function maxOfThree(){
 //returns true if it is a vowel, false otherwise.
 // ---------------------
 
-function isVowel(char){
+function isVowel(char){ 
    
 }
 
