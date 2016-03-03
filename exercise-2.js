@@ -24,8 +24,13 @@ function maxOfThree(input1, input2, input3) {
 // ---------------------
 
 function isVowel(char){ 
-   
+	var vowel = ['a', 'e', 'i', 'o', 'u', 'y'];
+	if (char===vowel) return true;
+	else return false;  
 }
+// this in the console is undefined, but I am unable to get it to return a true value
+
+
 
 // ---------------------
 // Write a function translate() that will translate a text into "rÃ¶varsprÃ¥ket". 
@@ -34,7 +39,8 @@ function isVowel(char){
 // ---------------------
 
 function rovarspraket(phrase){
-    //...
+
+    
 }
 
 
@@ -53,7 +59,8 @@ function reverse(){
 // ---------------------
 
 function findLongestWord(words){
-    //...
+    var longestWord = [the, best, mango, adjust, persons].length;
+    return longestWord;
 }
 
 // ---------------------
@@ -62,7 +69,7 @@ function findLongestWord(words){
 // ---------------------
 
 function filterLongWords(words, i){
-    //...
+    var longWords = [the, best, mango, adjust, i]
 }
 
 // ---------------------
