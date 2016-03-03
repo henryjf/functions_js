@@ -55,7 +55,7 @@ function greet(Name) {
 // sentence: "quick brown fox jumps over the fence"
 
 function madlib(adj, noun, verb, noun2) {
-	return "The " + adj + noun + verb + "to the " + noun2 + ".";
+	return "The " + adj +" excitable " + noun +" slowly "+ verb + " to the " + noun2 + ".";
 
 }
 
